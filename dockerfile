@@ -25,6 +25,5 @@ RUN rm eula.txt
 RUN mkdir /home/git_download
 RUN git clone https://github.com/freddy1301/mcdockertemplate.git /home/git_download
 RUN cp -r /home/git_download/ressources/* /home/mcserver
-RUN rm -r /home/git_download
 
 CMD cd /home/mcserver && java -jar /home/mcserver/paper.jar
