@@ -1,0 +1,12 @@
+# Config for JoinOp by Jakebooy. #
+
+# Set to any value to disable OP upon join - Set back to true to re-enable. #
+enable: true
+
+broadcast_join: true
+
+broadcast_join_message_color: '&3'
+
+message: '&f&oYou automatically got &a&oOP&f&o permissions! &7- you can change this in the JoinOP config.yml'
+
+prefix: '&3JoinOp'
