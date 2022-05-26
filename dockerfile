@@ -13,7 +13,7 @@ RUN chmod 777 /home/mcserver
 EXPOSE 25565
 EXPOSE 22/tcp
 
-RUN wget https://papermc.io/api/v2/projects/paper/versions/1.18.1/builds/150/downloads/paper-1.18.1-150.jar
+RUN wget https://api.papermc.io/v2/projects/paper/versions/1.18.2/builds/347/downloads/paper-1.18.2-347.jar
 RUN cp paper-1.18.1-150.jar /home/mcserver/paper.jar
 RUN rm paper-1.18.1-150.jar
 RUN ln -s /home/mcserver/paper.jar start.jar
